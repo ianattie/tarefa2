@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <h3>NOME</h3>
+         <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Sobrenome</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+
+       <h3>LINGUAS</h3>
+        <input type="radio" name="lang" id="ingles" value="ing">
+        <label for="ingles">ingles</label><br>
+
+        <input type="radio" name="lang" id="espanhol" value="esp" checked>
+        <label for="espanhol">espanhol</label><br>
+
+        <input type="radio" name="lang" id="alemao" value="alemao">
+        <label for="alemao">alemao</label>
+        
+        <h3>VEICULOS</h3>
+        <input type="checkbox" id="veic1" name="veiculo1" value="Bicicleta">
+        <label for="veic1"> Bicicleta</label><br>
+
+        <input type="checkbox" id="veic2" name="veiculo2" value="Carro">
+        <label for="veic2"> Carro</label><br>
+
+        <input type="checkbox" id="veic3" name="veiculo3" value="Moto">
+        <label for="veic3"> Moto</label>
+
+        <h3>ALERTA</h3>
+        <input type="button" value="Clique!" onclick="alert('xD')"><br>
+
+        <h3>CARROS</h3>
+        <label for="carro">Escolhe um carro</label>
+          <select id="carro" name="carros">
+        <option value="volvo">Volvo</option>
+           <option value="chevrolet">Chevrolet</option>
+       <option value="fiat">Fiat</option>
+       <option value="audi">Audi</option><br>
+</select>
+    <h3>TEXTO</h3>
+    <textarea name="message" rows="5" cols="20"></textarea>
+
+    <h3>NAVEGADOR</h3>
+        <input list="navegadores" name="navegadores">
+        <datalist id="navegadores">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Google Chrome">
+        <option value="OperaGX">
+        <option value="Safari">
+        </datalist>
+<h3>Fieldset</h3>
+        <fieldset>
+            <legend>Pessoa:</legend>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" value="Joao"><br>
+            <label for="lname">Sobrenome:</label><br>
+            <input type="text" id="lname" name="lname" value="da Silva"><br><br>
+            <input type="submit" value="Submit">
+            </fieldset>
+<h3>Outros tipos de INPUT</h3>
+<input type="color"><br>
+
+<input type="date"><br>
+ <input type="datetime-local"><br>
+ <input type="email"><br>
+ <input type="file"><br>
+ <input type="hidden"><br>
+ <input type="image"><br>
+ <input type="month"><br>
+ <input type="number"><br>
+<input type="password"><br>
+<input type="range"><br>
+ <input type="reset"><br>
+ <input type="search"><br>
+ <input type="time"><br>
+ <input type="url"><br>
+ <input type="week"><br>
+
+   
+
+<br>
+<input type="submit" value="submit">
+    </form>
+</body>
+</html>
